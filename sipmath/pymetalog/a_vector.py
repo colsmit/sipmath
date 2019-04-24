@@ -4,8 +4,6 @@ from scipy.optimize import linprog
 from .pdf_quantile_functions import pdf_quantile_builder
 from .support import diffMatMetalog
 
-import cvxopt
-
 def a_vector_OLS_and_LP(m_list,
            term_limit,
            term_lower_bound,
